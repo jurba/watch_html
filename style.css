@@ -1,0 +1,147 @@
+body {
+  max-width: 1440px;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: "League Spartan", sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.header-container {
+  display: flex;
+  width: 1440px;
+  height: 900px;
+
+  background-color: #f8f8f8;
+}
+.header-colum {
+  margin-top: 104px;
+  padding-left: 133px;
+}
+.header-title {
+  margin-bottom: 53px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 45px;
+}
+.header-subtitle {
+  font-size: 250px;
+  font-weight: 300;
+  line-height: 230px;
+  margin-bottom: 43px;
+}
+.header-description {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 50px;
+  margin-bottom: 61px;
+  width: 575px;
+}
+.bye-wrapper {
+  display: flex;
+}
+.bye-link {
+  display: block;
+  width: 278px;
+  height: 82px;
+  background-color: #161515;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 82px;
+  text-decoration: none;
+}
+.price {
+  display: block;
+  width: 143px;
+  height: 82px;
+  background-color: #fff;
+  color: #272727;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 82px;
+  text-decoration: none;
+}
+.header-img {
+  width: 408px;
+  display: block;
+  padding-left: 60px;
+}
+
+.popular-title {
+  margin-top: 43px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 45px;
+}
+.model-title {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 81px;
+  margin-bottom: 84px;
+}
+.item-wrapper {
+  margin: 0 auto;
+}
+.item-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  width: 417px;
+  height: 630px;
+  margin: 0 auto;
+}
+.item-title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 67px;
+  margin-bottom: 17px;
+}
+
+.item-description {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 50px;
+  text-align: center;
+  width: 510px;
+  margin: 0 auto;
+}
+.product-description-wrap {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  width: 515px;
+  text-align: center;
+  margin: 0 auto;
+}
+.product-description-title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 67px;
+  margin-bottom: 17px;
+  text-transform: capitalize;
+}
